@@ -33,7 +33,7 @@
 #need to substantially increase how much power I farm #added this
 #OR do it more frequently
 	
-# it seems like some upgrades may be being skipped? maybe my code to get enough for the costs is wrong?
+# it seems like some upgrades may be being skipped? maybe my code to get enough for the costs is wrong? (this is fixed)
 # or maybe its farming way more than it needs for resources?
 # or farming for resources even when it already has the amount it needs 
 # it looks like this is because of the way the stack works
@@ -46,6 +46,7 @@
 # thats why its taking FOREVER
 # i'm also not taking into consideration the idea that there is a multiplier based on how much I've unlocked
 # ok I think i handled this
+# hadnt fully fixed it but improved it now at least
 	
 #code to calc needed carrot seeds is wrong #FIXED
 #carrot yield should be multiplied by 3 

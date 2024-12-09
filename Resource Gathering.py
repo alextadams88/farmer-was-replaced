@@ -72,7 +72,7 @@ def farm_resource(resource, amount):
 #The function will return the amount of seeds I should buy.
 def calc_needed_seeds(seed, num_needed):
 	if seed == Items.Pumpkin_Seed:
-		current_pumpkin_yield = get_world_size() * get_world_size() * num_unlocked(Unlocks.Pumpkins)
+		current_pumpkin_yield = get_world_size() * get_world_size() * get_world_size() * num_unlocked(Unlocks.Pumpkins)
 		num_needed_pumpkins = num_needed // current_pumpkin_yield
 		if num_needed % current_pumpkin_yield != 0 or num_needed_pumpkins == 0:
 			num_needed_pumpkins = num_needed_pumpkins + 1

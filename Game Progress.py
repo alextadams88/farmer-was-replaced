@@ -21,15 +21,16 @@ unlock_ability(Unlocks.Trees) #Trees 4
 unlock_ability(Unlocks.Carrots) #Carrots 2
 unlock_ability(Unlocks.Carrots) #Carrots 3
 unlock_ability(Unlocks.Carrots) #Carrots 4
-get_tanks(20)
+get_tanks(50)
 unlock_ability(Unlocks.Speed) #Speed 5
 unlock_ability(Unlocks.Sunflowers) #Sunflowers 1
+get_tanks(100)
 farm_resource(Items.Power, 100) #get power
 unlock_ability(Unlocks.Speed) #Speed 6
 unlock_ability(Unlocks.Grass) #Grass 5
 farm_resource(Items.Power, 100) #get power
 unlock_ability(Unlocks.Trees) #Trees 5
-get_tanks(50)
+get_tanks(300)
 unlock_ability(Unlocks.Grass) #Grass 6
 farm_resource(Items.Power, 100) #get power
 unlock_ability(Unlocks.Trees) #Trees 6
@@ -46,7 +47,7 @@ farm_resource(Items.Power, 100) #get power
 unlock_ability(Unlocks.Pumpkins) #Pumpkins 2
 unlock_ability(Unlocks.Grass) #Grass 7
 unlock_ability(Unlocks.Trees) #Trees 7
-get_tanks(100)
+get_tanks(500)
 farm_resource(Items.Power, 100) #get power
 unlock_ability(Unlocks.Carrots) #Carrots 7
 unlock_ability(Unlocks.Speed) #Speed 9
@@ -70,7 +71,7 @@ unlock_ability(Unlocks.Expand) #Expand 6
 unlock_ability(Unlocks.Grass) #Grass 9
 farm_resource(Items.Power, 100) #get power
 unlock_ability(Unlocks.Trees) #Trees 9
-get_tanks(500)
+get_tanks(1000)
 unlock_ability(Unlocks.Carrots) #Carrots 9
 unlock_ability(Unlocks.Mazes) #Mazes 1
 unlock_ability(Unlocks.Sunflowers) #Sunflowers 2
