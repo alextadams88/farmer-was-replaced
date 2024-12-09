@@ -3,7 +3,8 @@ def create_maze():
 	harvest()
 	plant_bush()
 	while not can_harvest():
-		do_a_flip()
+		move(East)
+		move(West)
 	while get_entity_type() != Entities.Hedge and get_entity_type() != Entities.Treasure:
 		if num_items(Items.Fertilizer) < 1:
 			trade(Items.Fertilizer)

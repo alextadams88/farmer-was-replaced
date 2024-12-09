@@ -106,7 +106,8 @@ def plant_grass():
 		harvest()
 	elif get_entity_type() == Entities.Grass:
 		while not can_harvest():
-			do_a_flip()
+			move(East)
+			move(West)
 	if get_ground_type() != Grounds.Turf:
 		till()
 
